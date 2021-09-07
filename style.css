@@ -7,3 +7,32 @@
     rgba(0, 212, 255, 1) 100%
   );
 }
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+ul li {
+  background-image: url("img/check.svg");
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  line-height: 1.5rem;
+}
+
+.icons {
+  width: 70px;
+  height: 70px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  font-size: 1.75rem;
+  color: #fff;
+}
+.gallery {
+  background-color: whitesmoke;
+}
+.gallery img {
+  border-radius: 5%;
+}

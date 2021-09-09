@@ -9,24 +9,16 @@
     rgba(0, 97, 242, 1) 0%,
     rgba(105, 0, 199, 1) 100%
   );
-
-  /* background: rgb(14, 85, 237);
-  background: linear-gradient(
-    90deg,
-    rgba(14, 85, 237, 1) 26%,
-    rgba(97, 97, 241, 1) 49%,
-    rgba(0, 212, 255, 1) 100%
-  ); */
 }
 
-ul {
+.introduction ul {
   list-style: none;
   padding-left: 1rem;
 }
-ul li {
+.introduction ul li {
   background-image: url("img/check.svg");
   background-repeat: no-repeat;
-  padding-left: 30px;
+  padding-left: 40px;
   margin-bottom: 15px;
   line-height: 1.5rem;
 }

@@ -1,11 +1,22 @@
+/* body {
+  font-family: "Montserrat", sans-serif;
+} */
+
 .linear {
-  background: rgb(14, 85, 237);
+  background: rgb(0, 97, 242);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 97, 242, 1) 0%,
+    rgba(105, 0, 199, 1) 100%
+  );
+
+  /* background: rgb(14, 85, 237);
   background: linear-gradient(
     90deg,
     rgba(14, 85, 237, 1) 26%,
     rgba(97, 97, 241, 1) 49%,
     rgba(0, 212, 255, 1) 100%
-  );
+  ); */
 }
 
 ul {
